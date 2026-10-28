@@ -7,9 +7,9 @@ DEFCONFIG=ndef # set preferred existing defconfig in arch/arm64/configs
                # or if arch/arm64/configs does not contain it, specify 
                # a defconfig in THE SAME DIRECTORY WITH build.sh
                
-KERNEL_SOURCE=ndef # set to a preferred remote URL (e.g https://github.com/torvalds/linux...)
+KERNEL_SOURCE="https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
 
-KBRANCH="" # if not changed, use default kernel branch
+KBRANCH="-b bsp-manet-u-oss"
            # set to "-b <kernel branch name>" if you want to
 CLANGDL="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-qpr2-release/clang-r383902b1.tar.gz"
         # direct link to Clang toolchain
